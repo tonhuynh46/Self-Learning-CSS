@@ -1,0 +1,44 @@
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+h1 {
+  color: red;
+}
+
+p {
+  color: peru;
+  font-size: larger;
+}
+
+.mau {
+  color: pink;
+  background-color: orange;
+}
+
+#mau {
+  color: aqua;
+}
+
+.child {
+  color: red;
+}
+
+.parent .child {
+  color: darkblue;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: progress;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo span {
+  color: black;
+}

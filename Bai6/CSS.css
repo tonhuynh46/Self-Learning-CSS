@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/* p {
+  display: inline-block;
+  background: red;
+  width: 200px;
+  height: 100px;
+} */
+/* ul li {
+  list-style: none;
+  display: inline-block;
+  background: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+} */
+.parent{
+  display: flex;
+  text-align: center;
+  /* justify-content: flex-start;  trả về đâu */
+  /* justify-content: flex-end;    trả về cuối */
+  /* justify-content: center;    trả về giữ */
+  /* justify-content: space-between; trả về đều nhau */
+  justify-content: space-around; /*dãn đều nhau*/
+  background: skyblue;
+  height: 500px;
+  align-items: center; /*căng theo chiều*/
+}
+
+
+.child{
+  width: 50px;
+  height: 50px;
+  background: red;
+  line-height: 50px;
+}
+
+/* trường hợp thay đổi trong child */
+.middle1{
+  align-self: flex-start;
+}
+
+.middle2{
+  align-self: flex-end;
+}
+
